@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.darkmode{
+    margin-left: 1350px;
+    /* padding-bottom: 50%; */
+    height: 8vh;
+    width: 8vw;
+    margin-top: 40px;
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+}

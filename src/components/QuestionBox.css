@@ -1,15 +1,110 @@
-body{
-    background-color: rgb(255, 255, 255);
+
+
+.Main {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
-.darkmode{
-    margin-left: 1350px;
-    /* padding-bottom: 50%; */
-    height: 8vh;
-    width: 8vw;
-    margin-top: 40px;
-    background-color: black;
-    color: red;
-    border: 2px solid red;
-    border-radius: 5px;
+.light-mode {
+  background-color: #f7f7f7; 
+  color: #333;
+}
+
+.dark-mode {
+  background-color: #333; 
+  color: #fff; 
+}
+
+.text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.questions {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+
+
+
+
+.question-text.highlighted {
+  background-color: yellow; 
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.option {
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #3498db; 
+  color: #fff;
+  border: 1px solid #2980b9;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #2980b9; 
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.button {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #e74c3c; 
+  color: #fff;
+  border: 1px solid #c0392b;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #c0392b; }
+
+.changemode {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #27ae60; 
+  color: #fff;
+  border: 1px solid #219a47;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.changemode:hover {
+  background-color: #219a47; 
 }

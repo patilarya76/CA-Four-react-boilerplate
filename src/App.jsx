@@ -1,11 +1,11 @@
 
 
-// Import necessary React and custom component dependencies
+
 import React from "react";
-import "./App.css"; // Import the global styles for the app
-import questions from "./questions"; // Import the array of questions data
-import Result from "./components/Result"; // Import the Result component
-import QuestionBox from "./components/QuestionBox"; // Import the QuestionBox component
+import "./App.css"; 
+import questions from "./questions"; 
+import Result from "./components/Result"; 
+import QuestionBox from "./components/QuestionBox"; 
 
 // Functional component for the main App
 function App() {
@@ -18,5 +18,5 @@ function App() {
   );
 }
 
-// Export the App component as the default export
+
 export default App;
